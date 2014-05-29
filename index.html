@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trustvox sandbox</title>
+  <script type="text/javascript">
+    var _trustvox = _trustvox || [];
+    _trustvox.push(['_storeId', '1']);
+
+    _trustvox.push(['_productId',  "trustvoxperf-product-1"]);
+    _trustvox.push(['_productName',"Trustvox Performance Test Product"]);
+    _trustvox.push(['_productPhotos', ["http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Google_2013_Official.svg/200px-Logo_Google_2013_Official.svg.png"]]);
+
+    (function() {
+      var tv = document.createElement('script'); tv.type = 'text/javascript'; tv.async = true;
+      tv.src = '//trustvox-staging-assets.s3.amazonaws.com/assets/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tv, s);
+    })();
+  </script>
+</head>
+<body>
+  <div id="_trustvox_widget"></div>
+</body>
+</html>
